@@ -1,0 +1,11 @@
+<ion-content>
+	<div *ngIf="isUserLoggedIn" style="text-align:center">
+		<img src="{{user.info.imageUrl}}">
+		<h3>{{userInfo.displayName}}</h3>
+		<p>{{user.info.email}}</p>
+		<button ion-button clear (click)="logout()">logout</button>
+	</div>
+	<div *ngIf="!isUserLoggedIn">
+			<button ion-button clear (click)="loginWithGP()">logout</button>
+	</div>
+</ion-content>
