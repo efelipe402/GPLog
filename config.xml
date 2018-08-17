@@ -84,4 +84,13 @@
     <plugin name="cordova-plugin-googleplus" spec="^5.3.0">
         <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.877300201036-6lp9u547lbqcsk7hk3qn4tt35iopqh5u" />
     </plugin>
+    <plugin name="cordova-plugin-ionic" spec="^5.0.9">
+        <variable name="APP_ID" value="7f3e8486" />
+        <variable name="CHANNEL_NAME" value="Master" />
+        <variable name="UPDATE_METHOD" value="background" />
+        <variable name="WARN_DEBUG" value="true" />
+        <variable name="UPDATE_API" value="https://api.ionicjs.com" />
+        <variable name="MAX_STORE" value="2" />
+        <variable name="MIN_BACKGROUND_DURATION" value="30" />
+    </plugin>
 </widget>
